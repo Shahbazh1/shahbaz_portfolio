@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 
 export default function ProjectDetailsSection() {
   const searchParams = useSearchParams();
-  const [projectId, setProjectId] = useState<string | null>(null);
+  const [projectId, setProjectId] = useState(null);
 
   useEffect(() => {
     const id = searchParams.get('id');
@@ -28,7 +28,7 @@ export default function ProjectDetailsSection() {
 
   const otherProjects = projectsData.filter(project => project.id !== mainProject.id);
 
-  const renderLinkIcon = ( string) => {
+  const renderLinkIcon = ( type) => {
     switch(type) {
       case 'github':
         return <FaGithub />;
