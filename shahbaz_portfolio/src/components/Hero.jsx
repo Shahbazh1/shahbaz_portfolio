@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -47,16 +48,19 @@ const Hero = () => {
 
         {/* Right Image */}
         <div className="relative flex justify-center md:justify-end mb-8 md:mb-0 flex-1">
-          <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden">
-            <img
+          <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden relative">
+            <Image
               src="/hero_img.jpg"
-              alt="Profile"
-              className="w-full h-full object-cover"
+              alt="Muhammad Shahbaz Fareed Hashmi - Expert MERN Stack & React Developer"
+              fill
+              className="object-cover"
+              priority
+              sizes="(max-width: 768px) 192px, (max-width: 1024px) 256px, 320px"
             />
           </div>
 
           {/* Emoji bubble */}
-          <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 right-3 sm:right-6 md:right-10 bg-white w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full shadow flex items-center justify-center">
+          <div className="absolute bottom-3 sm:bottom-4 md:bottom-6 right-3 sm:right-6 md:right-10 bg-white w-9 h-9 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full shadow flex items-center justify-center z-10">
             <span className="text-base sm:text-lg md:text-xl">👋</span>
           </div>
         </div>
