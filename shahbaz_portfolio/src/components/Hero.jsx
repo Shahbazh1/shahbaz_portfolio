@@ -29,7 +29,7 @@ const Hero = () => {
 
           <div className="mt-6 sm:mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full justify-center md:justify-start">
   
-  <a href="/Shahbaz_Resume.pdf" download className="w-full sm:w-auto">
+  <a href="/Shahbaz_Resume_MERN_Dev.pdf" download className="w-full sm:w-auto">
     <button className="w-full sm:w-auto bg-gray-900 text-white px-6 py-3 sm:px-8 md:px-10 md:py-4 font-medium rounded hover:bg-gray-800 transition">
       Download Resume
     </button>
