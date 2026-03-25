@@ -22,25 +22,40 @@ const Experience = () => {
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 sm:gap-0">
               <div className="sm:flex-[0.65]">
                 <h3 className="text-lg sm:text-xl font-semibold text-orange-500">
-                  Mern Stack Developer
+                  Junior Web Developer
                 </h3>
                 <p className="text-gray-600 flex items-center gap-2 mt-1 text-sm sm:text-base">
                   <FaBuilding className="text-sm" />
-                  Nitensclue
+                  Devbay Technologies
                 </p>
                 <ul className="mt-3 sm:mt-4 space-y-3 text-gray-600 text-sm sm:text-base">
                   <li className="flex gap-3 items-start">
                     <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
                     <p>
-                      Contributed to 
-                      <span className="font-medium text-gray-900"> US-based fintech platform</span>, 
-                      working across both frontend and backend to deliver scalable, secure, and business-focused solutions.
+                      Developing scalable MERN & Next.js (TypeScript)
+                      applications with backend and Strapi CMS deployed on VPS
+                      servers.
+                    </p>
+                  </li>
+                  <li className="flex gap-3 items-start">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
+                    <p>
+                      Enhanced performance using Cloudflare CDN caching, DNS
+                      management, and ISR to reduce server load and improve
+                      response speed.{" "}
+                    </p>
+                  </li>
+                  <li className="flex gap-3 items-start">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
+                    <p>
+                      Managing APIs, MySQL databases, and production
+                      deployments.
                     </p>
                   </li>
                 </ul>
               </div>
               <span className="text-gray-500 mt-2 sm:mt-0 whitespace-nowrap text-sm sm:text-base">
-                Nov 2025 - Current
+                Dec 2025 - Current
               </span>
             </div>
           </div>
@@ -62,17 +77,26 @@ const Experience = () => {
                   <li className="flex gap-3 items-start">
                     <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
                     <p>
-                      Developed a modern, responsive frontend for the 
-                      <span className="font-medium text-gray-900"> Nitensclue official website</span>, 
-                      focusing on clean UI, performance, and cross-device compatibility.
+                      Developed a modern, responsive frontend for the
+                      <span className="font-medium text-gray-900">
+                        {" "}
+                        Nitensclue official website
+                      </span>
+                      , focusing on clean UI, performance, and cross-device
+                      compatibility.
                     </p>
                   </li>
                   <li className="flex gap-3 items-start">
                     <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
                     <p>
-                      Worked on a long-term 
-                      <span className="font-medium text-gray-900"> US-based eCommerce project</span>, 
-                      identifying bugs, fixing critical issues, and implementing new features to improve stability and user experience.
+                      Worked on a long-term
+                      <span className="font-medium text-gray-900">
+                        {" "}
+                        US-based eCommerce project
+                      </span>
+                      , identifying bugs, fixing critical issues, and
+                      implementing new features to improve stability and user
+                      experience.
                     </p>
                   </li>
                 </ul>
