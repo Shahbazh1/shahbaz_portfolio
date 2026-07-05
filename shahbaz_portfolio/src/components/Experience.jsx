@@ -22,6 +22,72 @@ const Experience = () => {
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 sm:gap-0">
               <div className="sm:flex-[0.65]">
                 <h3 className="text-lg sm:text-xl font-semibold text-orange-500">
+                  Full Stack Intern
+                </h3>
+                <p className="text-gray-600 flex items-center gap-2 mt-1 text-sm sm:text-base">
+                  <FaBuilding className="text-sm" />
+                  Recurso Labs
+                </p>
+                <ul className="mt-3 sm:mt-4 space-y-3 text-gray-600 text-sm sm:text-base">
+                  <li className="flex gap-3 items-start">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
+                    <p>
+                      Built a{" "}
+                      <span className="font-medium text-gray-900">
+                        Shopify-inspired backend
+                      </span>{" "}
+                      using Ruby on Rails.
+                    </p>
+                  </li>
+
+                  <li className="flex gap-3 items-start">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
+                    <p>
+                      Implemented{" "}
+                      <span className="font-medium text-gray-900">
+                        Active Record
+                      </span>
+                      ,
+                      <span className="font-medium text-gray-900">
+                        {" "}
+                        Devise Authentication
+                      </span>
+                      , and
+                      <span className="font-medium text-gray-900">
+                        {" "}
+                        Pundit Authorization
+                      </span>
+                      .
+                    </p>
+                  </li>
+
+                  <li className="flex gap-3 items-start">
+                    <span className="mt-2 h-2 w-2 rounded-full bg-orange-500 shrink-0"></span>
+                    <p>
+                      Integrated{" "}
+                      <span className="font-medium text-gray-900">Stripe</span>,
+                      <span className="font-medium text-gray-900">
+                        {" "}
+                        Action Mailer (SMTP)
+                      </span>
+                      , and third-party APIs.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <span className="text-gray-500 mt-2 sm:mt-0 whitespace-nowrap text-sm sm:text-base">
+                May 2026 - Apr 2026
+              </span>
+            </div>
+          </div>
+
+          {/* Item 2 */}
+          <div className="relative mb-8 sm:mb-10 md:mb-14">
+            <span className="absolute -left-[22px] sm:-left-[25px] md:-left-[28px] top-1 w-5 h-5 rounded-full bg-orange-500 border-4 border-white"></span>
+
+            <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-4 sm:gap-0">
+              <div className="sm:flex-[0.65]">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-900">
                   Junior Web Developer
                 </h3>
                 <p className="text-gray-600 flex items-center gap-2 mt-1 text-sm sm:text-base">
@@ -55,12 +121,12 @@ const Experience = () => {
                 </ul>
               </div>
               <span className="text-gray-500 mt-2 sm:mt-0 whitespace-nowrap text-sm sm:text-base">
-                Dec 2025 - Current
+                Jan 2026 - Mar 2026
               </span>
             </div>
           </div>
 
-          {/* Item 2 */}
+          {/* Item 3 */}
           <div className="relative mb-8 sm:mb-10 md:mb-14">
             <span className="absolute -left-[22px] sm:-left-[25px] md:-left-[28px] top-1 w-5 h-5 rounded-full bg-orange-500 border-4 border-white"></span>
 
@@ -102,7 +168,7 @@ const Experience = () => {
                 </ul>
               </div>
               <span className="text-gray-500 mt-2 sm:mt-0 whitespace-nowrap text-sm sm:text-base">
-                Aug 2025 - Oct 2025
+                Aug 2025 - Dec 2025
               </span>
             </div>
           </div>

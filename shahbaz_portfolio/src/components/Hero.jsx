@@ -14,9 +14,9 @@ const Hero = () => {
 
           <p className="mt-3 sm:mt-4 md:mt-5 text-sm sm:text-base md:text-lg text-gray-700">
             <span className="text-orange-500">// </span>
-            Currently working as Mern Stack Developer at{" "}
+            Currently working as Full Stack Developer at{" "}
             <span className="border-b-2 border-orange-500 pb-0.5">
-              Nitensclue.
+              Devbay Technologies.
             </span>
           </p>
 
@@ -29,7 +29,7 @@ const Hero = () => {
 
           <div className="mt-6 sm:mt-8 md:mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full justify-center md:justify-start">
   
-  <a href="/Shahbaz_Resume_MERN_Dev.pdf" download className="w-full sm:w-auto">
+  <a href="/Shahbaz_Resume_Full_Stack_Dev.pdf" download className="w-full sm:w-auto">
     <button className="w-full sm:w-auto bg-gray-900 text-white px-6 py-3 sm:px-8 md:px-10 md:py-4 font-medium rounded hover:bg-gray-800 transition">
       Download Resume
     </button>

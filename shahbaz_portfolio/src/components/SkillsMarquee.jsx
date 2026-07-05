@@ -132,7 +132,7 @@ function Card({ item }) {
 
 export default function SkillsMarquee() {
   return (
-    <section className="relative overflow-hidden mx-auto py-12 sm:py-16 md:py-20 max-w-7xl">
+    <section className="relative overflow-hidden mx-auto py-12 sm:py-16 md:py-20 max-w-6xl">
 
       {/* Background Glow */}
 
