@@ -5,7 +5,7 @@ const projectsData = [
     image: "/project_images/ai_vet_care.png",
     alt: "AI VET CARE",
     tags: [
-      "Android Studio","Java","XML","Firebase","TensorFlow","Room Database",
+      "Android Studio", "Java", "XML", "Firebase", "TensorFlow", "Room Database",
     ],
     description:
       "An AI-powered Android application designed to assist livestock owners in diagnosing animal diseases offline. The app uses a TensorFlow neural network to predict diseases based on three selected symptoms, provides vaccination reminders, and helps farmers locate nearby veterinarians using Google Maps integration.",
@@ -28,6 +28,47 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "SCRIPT 2 VIDEO",
+    image: "/project_images/Script2Video.jfif",
+    alt: "SCRIPT 2 VIDEO",
+
+    tags: [
+      "React 19",
+      "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "Google Gemini AI",
+      "Pollinations AI",
+    ],
+
+    description:
+      "An AI-powered video pre-production application that transforms creative ideas, story concepts, or video prompts into structured 5-scene storyboards. It uses Google Gemini AI to generate scene chronology, visual descriptions, narration, and image prompts, then automatically generates cinematic visuals for each scene using Pollinations AI.",
+
+    features: [
+      "Generates structured 5-scene video storyboards using Google Gemini AI",
+      "Creates scene titles, visual descriptions, narration, and cinematic image prompts",
+      "Uses Gemini structured output for consistent and validated storyboard data",
+      "Automatically generates AI visuals for each scene using Pollinations AI",
+      "Sequential image generation with real-time Waiting, Generating, Ready, and Failed statuses",
+      "Interactive storyboard interface for reviewing scenes and narration",
+      "Responsive dark UI with Tailwind CSS, glassmorphism, gradients, and smooth interactions",
+      "Built with React 19, React Router v7, and Vite for a fast development experience",
+    ],
+
+    links: [{
+      name: "Live Website",
+      url: "https://script2videos.netlify.app/",
+      type: "live",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/Shahbazh1/Script2Video",
+      type: "github",
+    },
+    ],
+  },
+  {
+    id: 3,
     title: "College Management System",
     image: "/project_images/college.png",
     alt: "College Management System",
@@ -55,7 +96,7 @@ const projectsData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Fresh Basket",
     image: "/project_images/fresh_basket.png",
     alt: "Fresh Basket",
@@ -83,7 +124,7 @@ const projectsData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "PPEPCA",
     image: "/project_images/pakistan_petroleum.png",
     alt: "PAKISTAN PETROLEUM EXPLORATION & PRODUCTION COMPANY LIMITED",
