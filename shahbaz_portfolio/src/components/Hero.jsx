@@ -50,9 +50,10 @@ const Hero = () => {
         <div className="relative flex justify-center md:justify-end mb-8 md:mb-0 flex-1">
           <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden relative">
             <Image
-              src="/hero_img.jpg"
+              src="/hero_img.webp"
               alt="Muhammad Shahbaz Fareed Hashmi - Expert MERN Stack & React Developer"
               fill
+              
               className="object-cover"
               priority
               sizes="(max-width: 768px) 192px, (max-width: 1024px) 256px, 320px"

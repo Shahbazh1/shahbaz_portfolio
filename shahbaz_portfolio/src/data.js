@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: 1,
     title: "AI VET CARE",
-    image: "/project_images/ai_vet_care.png",
+    image: "/project_images/ai_vet_care.webp",
     alt: "AI VET CARE",
     tags: [
       "Android Studio", "Java", "XML", "Firebase", "TensorFlow", "Room Database",
@@ -29,7 +29,7 @@ const projectsData = [
   {
     id: 2,
     title: "SCRIPT 2 VIDEO",
-    image: "/project_images/Script2Video.jfif",
+    image: "/project_images/Script2Video.webp",
     alt: "SCRIPT 2 VIDEO",
 
     tags: [
@@ -70,7 +70,7 @@ const projectsData = [
   {
     id: 3,
     title: "College Management System",
-    image: "/project_images/college.png",
+    image: "/project_images/college.webp",
     alt: "College Management System",
     tags: ["Java Script", "React", "Tailwind", "Express", "Mysql"],
     description:
@@ -98,7 +98,7 @@ const projectsData = [
   {
     id: 4,
     title: "Fresh Basket",
-    image: "/project_images/fresh_basket.png",
+    image: "/project_images/fresh_basket.webp",
     alt: "Fresh Basket",
     tags: ["React", "Tailwind", "Java script", "Framer Motion", "Firebase"],
     description:
@@ -126,7 +126,7 @@ const projectsData = [
   {
     id: 5,
     title: "PPEPCA",
-    image: "/project_images/pakistan_petroleum.png",
+    image: "/project_images/pakistan_petroleum.webp",
     alt: "PAKISTAN PETROLEUM EXPLORATION & PRODUCTION COMPANY LIMITED",
     tags: [
       "Nextjs",
