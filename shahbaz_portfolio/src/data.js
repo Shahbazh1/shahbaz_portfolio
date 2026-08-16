@@ -154,6 +154,35 @@ const projectsData = [
       { name: "GitHub", url: "#", type: "github" },
     ],
   },
+  {
+  id: 6,
+  title: "Elevate CV",
+  image: "/project_images/elevate_cv.webp",
+  alt: "Elevate CV - Resume Builder",
+  tags: [
+    "Nextjs",
+    "Tailwind",
+    "TypeScript",
+    "Lucide Icon Library"
+  ],
+  description:
+    "Elevate CV is a minimal, privacy-focused resume builder designed to help users quickly craft clean, professional CVs. Built with a direct editing experience, it lets users start from scratch or import existing PDFs, ensuring all data remains client-side without registration requirements.",
+  features: [
+    "No registration or login required",
+    "Client-side data privacy",
+    "PDF import and instant editing",
+    "Clean resume template layouts",
+    "One-click PDF download"
+  ],
+  links: [
+    {
+      name: "Live Website",
+      url: "http://localhost:3000",
+      type: "live",
+    },
+    { name: "GitHub", url: "#", type: "github" },
+  ],
+}
 ];
 
 export default projectsData;
