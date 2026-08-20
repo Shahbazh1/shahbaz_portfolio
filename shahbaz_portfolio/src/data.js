@@ -42,33 +42,50 @@ const projectsData = [
     ],
   },
   {
-    id: 2,
-    title: "Elevate CV",
-    image: "/project_images/elevate_cv.webp",
-    alt: "Elevate CV - Resume Builder",
-    tags: ["Nextjs", "Tailwind", "TypeScript", "Lucide Icon Library"],
-    description:
-      "Elevate CV is a minimal, privacy-focused resume builder designed to help users quickly craft clean, professional CVs. Built with a direct editing experience, it lets users start from scratch or import existing PDFs, ensuring all data remains client-side without registration requirements.",
-    features: [
-      "No registration or login required",
-      "Client-side data privacy",
-      "PDF import and instant editing",
-      "Clean resume template layouts",
-      "One-click PDF download",
-    ],
-    links: [
-      {
-        name: "Live Website",
-        url: "https://elevateyourresume.netlify.app/",
-        type: "live",
-      },
-      {
-        name: "GitHub",
-        url: "https://github.com/Shahbazh1/Elevate-CV",
-        type: "github",
-      },
-    ],
-  },
+  id: 2,
+  title: "Elevate CV",
+  image: "/project_images/elevate_cv.webp",
+  alt: "Elevate CV - AI Resume Builder",
+
+  tags: [
+    "Next.js",
+    "React 19",
+    "Tailwind CSS",
+    "Google Gemini AI",
+    "PDF.js",
+    "html2pdf.js",
+    "Lucide React",
+  ],
+
+  description:
+    "Elevate CV is an AI-powered resume builder that helps users create professional, ATS-friendly CVs through intelligent resume parsing, multiple professionally designed templates, and an intuitive live editor. Users can upload an existing PDF resume, review AI-extracted information using Google Gemini, customize their resume, and export the final version as a high-quality PDF.",
+
+  features: [
+    "AI-powered resume parsing using Google Gemini API",
+    "Upload existing PDF resumes and automatically extract structured information",
+    "8+ professional ATS-friendly resume templates for different industries",
+    "Interactive resume editor with real-time preview",
+    "Support for personal information, summary, experience, education, skills, projects, and certifications",
+    "Add, remove, and reorder resume sections",
+    "PDF text processing using PDF.js",
+    "High-quality PDF export using html2pdf.js",
+    "Review and correct AI-extracted resume data before importing",
+    "Responsive and modern resume-building interface",
+  ],
+
+  links: [
+    {
+      name: "Live Website",
+      url: "https://elevateyourresume.netlify.app/",
+      type: "live",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/Shahbazh1/Elevate-CV",
+      type: "github",
+    },
+  ],
+},
   {
     id: 3,
     title: "PPEPCA",
