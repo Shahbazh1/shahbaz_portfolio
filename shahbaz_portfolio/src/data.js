@@ -188,6 +188,50 @@ const projectsData = [
       },
     ],
   },
+  {
+  id: 7,
+  title: "LUMISCAPE",
+  image: "/project_images/lumiscape.webp",
+  alt: "Lumiscape Smart Home Dashboard",
+
+  tags: [
+    "React 19",
+    "Vite",
+    "Tailwind CSS",
+    "React Router",
+    "React Hook Form",
+    "Iconify",
+  ],
+
+  description:
+    "Lumiscape is a modern smart-home dashboard built with React for managing connected devices, rooms, energy goals, custom categories, smart controls, and usage history through a responsive and intuitive interface.",
+
+  features: [
+    "Device management with responsive table and card-based views",
+    "Room management with dedicated room creation workflows",
+    "Custom category creation and category overview pages",
+    "Energy goal configuration and management",
+    "Smart control workflows for connected devices",
+    "Usage history and activity views",
+    "Shared form state management using React Hook Form and React Context",
+    "Reusable navigation, sidebar, table, form, and layout components",
+    "Responsive dashboard interface built with Tailwind CSS",
+    "Client-side routing with React Router",
+  ],
+
+  links: [
+    {
+      name: "Live Website",
+      url: "https://lumiscap3.netlify.app/",
+      type: "live",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/Shahbazh1/lumiscape",
+      type: "github",
+    },
+  ],
+},
 ];
 
 export default projectsData;
